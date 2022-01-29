@@ -155,7 +155,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;92m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:Rana_Nadeem
+            print "Logged in successfully as " + username #Dev:NOMI_NIAZI
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -178,7 +178,7 @@ def login():
         time.sleep(0.05)
         print "\033[1;97m[2]\x1b[1;96mLogin  With Token"
         time.sleep(0.05)
-        print "\033[1;97m[3]\x1b[1;96mGet Free Token to Basit Ali"
+        print "\033[1;97m[3]\x1b[1;96mGet Free Token to NOMI NIAZI"
         time.sleep(0.05)
 	print "\033[1;97m[0]\033[1;96mExit             "
 	pilih_login()
