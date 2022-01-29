@@ -419,7 +419,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;93m◁━━━━◈Start Hacking NOMI NIAZI◈━━━━▷\033[1;93m"+o),;sys.stdout.flush();time.sleep(0.05)
 	print "\n\033[1;92mNOTE:\x1b[1;93m [If You Want to Stop Process Press CTRL+Z]"
-	print "\033[1;95m◁━━━━◈✙◈━━━━▷\033[1;91mBranded-Sindhi\033[1;95m◁━━━━◈✙◈━━━━▷"
+	print "\033[1;95m◁━━━━◈✙◈━━━━▷\033[1;91mBranded_NOMi\033[1;95m◁━━━━◈✙◈━━━━▷"
  	
 			
 	def main(arg):
@@ -428,7 +428,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev: NOMI NIAZI
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
